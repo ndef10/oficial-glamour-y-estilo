@@ -1,6 +1,6 @@
 # Salón de Belleza Glamour y estilo
 
-Este proyecto es una versión sin backend y la base del sitio web para un salón de belleza en funcionamiento que permite a los clientes contactar al local mediante correo electrónico por medio del formulario de contacto, suscribirse, hacer consultas sobre horarios mediante WhatsApp y ver los productos disponibles para la venta.
+Este es el sitio web oficial del salón de belleza "Glamour & Estilo" que permite a sus clientes contactar al local mediante correo electrónico por medio del formulario de contacto, suscribirse, hacer consultas sobre horarios mediante WhatsApp y ver los productos disponibles para la venta.
 
 ## Contenido
 
@@ -13,7 +13,7 @@ Este proyecto es una versión sin backend y la base del sitio web para un salón
 - Autor
 
 ## Descripción
-Este proyecto es un sitio web para el salón de belleza "Glamour y estilo". El sitio web ofrece información sobre los servicios del salón, permite a los clientes contactar al local mediante un formulario de contacto y hacer consultas sobre horarios, suscribirse y citas a través de WhatsApp. También se muestra una lista de los productos disponibles para la venta, con la posibilidad de comunicarse con el vendedor para acordar los términos de la transacción y entrega.
+Este es el sitio web oficial del salón de belleza "Glamour & estilo". El sitio web ofrece información sobre los servicios del salón, permite a los clientes contactar al local mediante un formulario de contacto y hacer consultas sobre horarios, suscribirse y citas a través de WhatsApp. También se muestra una lista de los productos disponibles para la venta, con la posibilidad de comunicarse con el vendedor para acordar los términos de la transacción y entrega.
 
 ## Cómo Abrir el Sitio Web
 
@@ -22,7 +22,7 @@ Este proyecto es un sitio web para el salón de belleza "Glamour y estilo". El s
 <div style="background-color: black; padding: 10px; border-radius: 10px;">
   <pre>
     <code>
-      git clone https://github.com/ndef10/prototipo2gye.git
+      git clone https://github.com/ndef10/oficialgye.git
     </code>
   </pre>
 </div>
