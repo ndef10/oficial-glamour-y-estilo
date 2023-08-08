@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/logo-glamour-y-estilo.ico" type="image/x-icon">
+    <title>Salon Glamour & Estilo</title>
+
+    <!-- font aweson -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">    
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <div class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+          <div class="logo"> 
+            <!-- <h1><div class="lg"><img data-src="assets/img/logo-glamour-y-estilo.ico" alt="icono-gye"/></div><span class="primario"</span>Salon Glamour<span class="secundario"></span><span class="primario"> Estilo</span></h1>                   -->
+            <h1><span class="primario"</span>Salon Glamour<span class="secundario"></span><span class="primario"> Estilo</span></h1>
+          </div>
+          <nav class="navegacion ocultar">
+            <a href="#inicio"inicio">Inicio</a>
+            <a href="#nosotros">Sobre Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#productos">Productos</a>
+            <a href="#form-contacto">Contacto</a>
+            <a href="#ubicacion">ubicación</a>
+            <a href="#suscripcion" class="ocultar-enlace"></a>
+          </nav>
+          <div class="hamburguesa"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div id="inicio" class="contenido-header">
+        <div class="contenedor-encabezado">
+          <div class="texto-encabezado">
+            <h2>Potencia tu belleza</h2>
+            <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20AGENDAR%20UNA%20HORA" target="_blank" class="btn btn-nuevo">agenda tu hora</a>
+          </div>
+          <video autoplay loop muted>
+            <source src="assets/unomaspeque.mp4" />
+          </video>
+        </div>
+      </div>
+    </header>
+
+    <div id="nosotros" class="contenedor-nosotros contenedor">
+      <div class="texto-nosotros">
+        <p class="bienvenida">Bienvenidas!</p>
+        <h1>Salon Glamour & Estilo</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, fugiat delectus porro suscipit architecto ab impedit
+          accusantium quod voluptate quaerat odio sunt quisquam odit, sapiente
+          aut esse possimus nulla totam! Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Voluptate eveniet placeat nesciunt harum similique
+          ab, illo debitis ullam ipsa labore quidem vitae sunt et quasi
+          veritatis? Excepturi ex non cumque. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Fugiat eligendi sint porro dolor sunt
+          nam vero saepe cum ullam! Possimus, suscipit asperiores. Facilis eos
+          quibusdam repellendus ab suscipit
+        </p>        
+        <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20AGENDAR%20UNA%20HORA" target="_blank" class="btn btn-nuevo">Agenda tu hora</a>
+      </div>
+      <div class="imagenes-nosotros">
+        <div class="imagen1">
+          <img data-src="assets/img/linda.jpg" alt="modelo1" />
+        </div>
+        <div class="imagenes2">
+          <img data-src="assets/img/morena.jpg" alt="modelo2" />
+          <img data-src="assets/img/colorina.jpg" alt="modelo3" />
+        </div>
+      </div>
+    </div>
+
+    <section id="servicios" class="servicios container">
+        <div class="contenedor-servicios contenedor">
+            <h2>Servicios para tí</h2>
+            <div class="carrusel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img data-src="./assets/img/corte3.jpg" class="d-block w-100" alt="corte">
+                        <div class="carousel-caption">
+                          <h5>Corte y peinado</h5>
+                          <p>Cambia tu look</p>                          
+                          <a class="btn btn-nuevo btn-cotizar">Cotiza aquí</a>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="modal-cotizar">
+                        <div class="modal-content">
+                          <span class="close" id="close-modal">&times;</span>
+                          <h3>Corte y peinado</h3>
+                          <div class="precio-servicios">
+                            <p>(Valores solo de referencia)</p>
+                            <tbody>
+                              <li>CORTE MUJER: <spam class="primario">desde</spam> $8.000</li><br>
+                              <li>CORTE HOMBRE: <spam class="primario">desde</spam> $6.000</li><br>
+                              <li>CORTE NIÑA/NIÑO: <spam class="primario">desde</spam> $6.000</li><br>
+                              <li>BRUSHING: <spam class="primario">desde</spam> $10.000</li><br>
+                            </tbody>
+                          </div>
+                          <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20consultar%20por%20el%20servicio%20de%20:%20CORTE%20y%20PEINADO" target="_blank" class="btn btn-nuevo">Contactar por WhatsApp</a>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img data-src="./assets/img/alisado.jpg" class="d-block w-100" alt="alisado">
+                        <div class="carousel-caption">
+                          <h5>Alisado</h5>
+                          <p>Siempre perfecta</p>
+                          <a class="btn btn-nuevo btn-cotizar">Cotiza aquí</a>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="modal-cotizar">
+                        <div class="modal-content">
+                          <span class="close" id="close-modal">&times;</span>
+                          <h3>Alisado</h3>
+                          <div class="precio-servicios">
+                            <p>(Valores solo de referencia)</p>
+                            <tbody>
+                              <li>ALISADO KERATINA: <spam class="primario"><spam class="primario">desde</spam></spam> $25.000</li><br>
+                              <li>ALISADO REAL COFFEE: <spam class="primario">desde</spam> $40.000</li><br>
+                              <li>ALISADO COFFEE PREMIUM: <spam class="primario">desde</spam> $40.000</li><br>
+                              <li>MASAJES: <spam class="primario">desde</spam> $10.000</li><br>
+                              <li>BOTOX: <spam class="primario">desde</spam> $25.000</li><br>
+                            </tbody>
+                          </div>
+                          <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20consultar%20por%20el%20servicio%20de%20:%20ALISADO" target="_blank" class="btn btn-nuevo">Contactar por WhatsApp</a>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img data-src="./assets/img/tintura.jpg" class="d-block w-100" alt="tintura">
+                        <div class="carousel-caption">
+                          <h5>Coloración</h5>
+                          <p>Renueva tu look</p>
+                          <a class="btn btn-nuevo btn-cotizar">Cotiza aquí</a>
+                        </div>
+                      </div>
+
+                      <div class="modal" id="modal-cotizar">
+                        <div class="modal-content">
+                          <span class="close" id="close-modal">&times;</span>
+                          <h3>Coloración</h3>
+                          <div class="precio-servicios">
+                            <p>(Valores solo de referencia)</p>
+                            <tbody>
+                              <li>COLOR CRECIMIENTO/CANAS: <spam class="primario">desde</spam> $16.000</li><br>
+                              <li>APLICACIÓN TINTE: <spam class="primario">desde</spam> $14.000</li><br>
+                              <li>VISOS: <spam class="primario">desde</spam> $23.000</li><br>
+                              <li>BALAYAGE: <spam class="primario">desde</spam> $45.000</li><br>
+                              <li>BABYLIGHT: <spam class="primario">desde</spam> $45.000</li><br>
+                              <li>COLOR FANTASÍA: <spam class="primario">desde</spam> $38.000</li><br>
+                            </tbody>
+                          </div>
+                          <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20consultar%20por%20el%20servicio%20de%20:%20COLORACIÓN" target="_blank" class="btn btn-nuevo">Contactar por WhatsApp</a>
+                        </div>
+                      </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <div id="agenda" class="separador1">
+      <div class="contenido-separador1 contenedor">
+        <h2>Regálate un momento especial</h2><br>           
+        <p>Una mujer que se corta el cabello, está a punto de cambiar su vida.</p>    
+        <p>Realza tu belleza</p>        
+      </div>
+    </div>
+
+    <section id="productos" class="contenedor">
+      <h2 class="texto-productos">Productos</h2>
+      <div class="botones-productos">
+        <button class="todos btn btn-categoria">Todos</button>
+        <button class="shampoos btn btn-categoria">Shampoo</button>
+        <button class="acondicionadores btn btn-categoria">Acondicionador</button>
+        <button class="cremas btn btn-categoria">Cremas</button>
+        <button class="otros btn btn-categoria">Otros</button>
+      </div>
+      <div class="productos">
+        <div class="producto" data-producto="shampoo">
+          <img data-src="assets/img/a1.webp" alt="shampoo" />
+          <h2>Braliss</h2>
+          <p>shampoo para cabello 250ml.</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="shampoo">
+          <img data-src="assets/img/a2.webp" alt="shampoo" />
+          <h2>Imagea</h2>
+          <p>Shampoo + Acondicionar Resistance Inoar 1l</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="shampoo">
+          <img data-src="assets/img/a3.webp" alt="shampoo" />
+          <h2>Link-d</h2>
+          <p>Shampoo ligero con una mezcla especial de aceites. 125ml.</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="acondicionador">
+          <img data-src="assets/img/a13.jpg" alt="acondicionador" />
+          <h2>Davines</h2>
+          <p>Acondicionador Ligero Nutrición Cabello Seco Lait Vital Nutritive 200ml</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="acondicionador">
+          <img data-src="assets/img/a12.webp" alt="acondicionador" />
+          <h2>Jenoris</h2>
+          <p>Acondicionador 2 para cabello seco 250ml.</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="acondicionador">
+          <img data-src="assets/img/a6.jpeg" alt="acondicionador" />
+          <h2>Estereo color</h2>
+          <p>Acondicionador efecto liso 500 ml</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="crema">
+          <img data-src="assets/img/a5.jpeg" alt="crema" />
+          <h2>Kerastase</h2>
+          <p>Máscara Reconstrucción Cabello Muy Dañado Masque Thérapiste Resistance 200ml</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="crema">
+          <img data-src="assets/img/s3.webp" alt="crema" />
+          <h2>Pichara</h2>
+          <p>Shiseido - Fino Premium Touch Hair Mask.</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="crema">
+          <img data-src="assets/img/s5.jpg" alt="crema" />
+          <h2>Sea Hear</h2>
+          <p>
+            Máscara Reparadora Cabello Seco.</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="otro">
+          <img data-src="assets/img/s6.jpg" alt="otro" />
+          <h2>Mood</h2>
+          <p>Restaurador Capilar 2 Minutos</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="otro">
+          <img data-src="assets/img/a4.jpeg" alt="otro" />
+          <h2>Moonmetique</h2>
+          <p>Ampolla Oi Hidratación Profunda</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="producto" data-producto="otro">
+          <img data-src="assets/img/a5.jpeg" alt="otro" />
+          <h2>Elgon</h2>
+          <p>High Quality Cream Elgon</p>
+          <div class="precio">
+            <p>$25.000</p>
+            <button class="comprar-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separador">
+      <div class="contenido-separador contenedor">
+        <h2>Ven a visitarnos</h2>
+        <p>Cambia tu look</p>
+        <p>y renueva tu imagen</p>     
+        <a href="https://wa.me/56962964710?text=Hola!!%20quisiera%20AGENDAR%20UNA%20HORA" target="_blank" class="btn btn-nuevo">Agenda tu hora</a>
+      </div>
+    </div>  
+
+    <div id="contacto" class="formulario-contacto contenedor">
+      <div class="informacion-contacto">
+        <h3>Contáctanos</h3>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>Av. Imaculada Concepción
+          N° 396, Colina.
+        </p>
+        <p><i class="fa-solid fa-envelope"></i>glam_yestilo@hotmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+569 62964710</p>
+        <div class="redes-sociales">        
+          <a href="https://www.instagram.com/glamour_y_estiloo/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/56962964710" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>          
+        </div>
+      </div>
+    
+      <form id="form-contacto" class="formulario"  action="https://formsubmit.co/carolina.nunezn11@gmail.com" method="POST" />
+      
+        <div class="input-formulario">
+          <label for="nombre">Nombre</label>
+          <input type="text" placeholder="Ej: Maria" name="nombre"/>
+          <span></span>
+        </div>
+        <div class="input-formulario">
+          <label for="apellido">Apellido</label>
+          <input type="text" placeholder="Ej: Pino" name="apellido"/>
+          <span></span>
+        </div>
+        <div class="input-formulario">
+          <label for="correo">Correo</label>
+          <input type="text" placeholder="Ej: ejemplo@ejemplo.com" name="correo" />
+          <span></span>
+        </div>
+        <div class="input-formulario">
+          <label for="telefono">Teléfono</label>
+          <input type="number" placeholder="Ej: +56 943 769 340" name="telefono" />
+          <span></span>
+        </div>
+        <div class="input-formulario">
+          <label for="asunto">Asunto</label>
+          <input type="text" placeholder="Ej: Consulta" name="asunto" />
+          <span></span>
+        </div>
+        <div class="input-formulario">
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+          <span></span>
+        </div>
+        <div id="mensaje_contacto"></div>
+        <div class="btn-formulario">
+          <input id="enviar" type="submit" class="btn btn-nuevo" name="submit" value="Enviar" />
+        </div>
+
+        <input type="hidden" name="_next" value="https://prototipo2gye.netlify.app/#contacto" ></input>
+        <input type="hidden" name="_captcha" value="false"></input> 
+
+      </form>
+    </div>
+    
+    <div id="ubicacion" class="ubicacion contenedor">
+        <h3>Ubícanos en el mapa</h3>
+      <div class="mapa">        
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.4009015354895!2d-70.68189612371016!3d-33.20358458491313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662bbb0404e5baf%3A0xdde11d75cfbdc3c0!2sCentro%20Cultural%20de%20Colina!5e0!3m2!1ses!2scl!4v1690442687599!5m2!1ses!2scl"
+            width="100%"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>        
+      </div>
+    </div>
+
+    <div class="pie-pagina">
+      <div class="contenedor-piepagina contenedor">
+        <div class="info">
+          <h3>Dirección</h3>
+          <p>Avenida Inmaculada Concepción 396, Colina.</p>
+        </div>
+        <div class="info">
+          <h3>Días especiales</h3>
+          <p>Sábados: 10:30 - 14:00pm</p>
+          <p><span class="primario">(Se atiende solo con cita)</span></p>
+          <p>Domingos y festivos: Cerrado</p>
+          
+        </div>
+        <div class="info">
+          <h3>Horarios</h3>
+          <p>Lunes - Sábados 10:30am - 19:30pm</p>
+          <p><span class="primario">(Se atiende solo con cita)</span></p>
+          <div class="redes-sociales redes-pie">
+            <a href="https://www.instagram.com/glamour_y_estiloo/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/56962964710" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Noticias</h3>
+          <p>suscríbete para recibir ofertas exclusivas</p>
+          
+          <form id="suscripcion" class="contenedor"  action="https://formsubmit.co/carolina.nunezn11@gmail.com" method="POST" />
+          <div id="mensaje_suscripcion"></div> 
+            <input type="text" placeholder="Ej: Maria Pino" name="nombre_suscripcion" /> 
+            <input type="email" placeholder="Ej: ejemplo@ej.com" name="correo_suscripcion" />
+            <input type="submit" class="btn btn-nuevo" name="submit_suscripcion" value="Suscribirse" />
+            <input type="hidden" name="_next" value="https://prototipo2gye.netlify.app/#suscripcion" ></input>
+            <input type="hidden" name="_captcha" value="false"></input> 
+          </form>
+        </div>
+
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <p>
+        Todos los derechos reservados &copy; 2023 Salón Glamour&Estilo,
+        desarrollado por: <span class="primario">ndefranchi</span>
+      </p>
+    </footer>
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+    
+  </body>
+</html>
