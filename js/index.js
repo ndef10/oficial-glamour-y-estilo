@@ -164,17 +164,22 @@ const input_correo_contacto = formulario.querySelector('input[name="correo"]');
 const input_telefono = formulario.querySelector('input[name="telefono"]');
 const input_asunto = formulario.querySelector('input[name="asunto"]');
 const textarea_mensaje = formulario.querySelector('textarea[name="mensaje"]');
+const mensaje_contacto = document.getElementById('mensaje_contacto');
 
 const errores = (message, input, isError = true) => {
     if(isError) {
         input.classList.add("invalido");
         input.nextElementSibling.classList.add("error");
         input.nextElementSibling.innerText = message;
+        mensaje_contacto.textContent = "El formulario contiene errores. Por favor, verifica los campos.";
+        mensaje_contacto.classList.add('error-suscripcion');
 
     }else {
         input.classList.remove("invalido");
         input.nextElementSibling.classList.remove("error");
         input.nextElementSibling.innerText = "";
+        mensaje_contacto.textContent = " ";
+        mensaje_contacto.classList.remove('error-suscripcion');
     }
 }
 
@@ -240,12 +245,8 @@ formulario.addEventListener('submit', function (e) {
     if (formulario.querySelector('.invalido')) {
         formularioValido = false;
         e.preventDefault();
-        mensaje_contacto.textContent = "El formulario contiene errores. Por favor, verifica los campos.";
-        mensaje_contacto.classList.add('error-suscripcion');
+    
     }else {
-        const mensaje_contacto = document.getElementById('mensaje_contacto');
-        mensaje_contacto.textContent = " ";
-        mensaje_contacto.classList.remove('error-suscripcion');
         const nuevoParrafo = document.createElement('p');
         mensaje_contacto.appendChild(nuevoParrafo);
         nuevoParrafo.classList.add('exito');
