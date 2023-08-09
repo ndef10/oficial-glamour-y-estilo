@@ -46,7 +46,7 @@ El diseño de la interfaz se realizó de acuerdo a los requerimientos del client
 
 ## Despliegue
 
-El proyecto está disponible en el siguiente link: https://prototipo2gye.netlify.app/
+El proyecto está disponible en el siguiente link: https://glamouryestilo.netlify.app/
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Puedes ver el archivo de licencia aquí https://www.mit.edu/search/?q=licence+mit#gsc.tab=0&gsc.q=licence%20mit&gsc.page=1.
