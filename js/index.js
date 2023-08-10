@@ -247,6 +247,10 @@ formulario.addEventListener('submit', function (e) {
         e.preventDefault();
     
     }else {
+        formularioValido = true;
+        mensaje_contacto.textContent = " ";
+        mensaje_contacto.classList.remove('error-suscripcion');
+
         const nuevoParrafo = document.createElement('p');
         mensaje_contacto.appendChild(nuevoParrafo);
         nuevoParrafo.classList.add('exito');
