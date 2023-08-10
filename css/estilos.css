@@ -162,7 +162,7 @@ img{
 /*navegacion*/
 
 .contenedor-navegacion{
-    /* padding: 3rem 3rem; */
+    padding: 3rem 3rem;
     background-color: var(--oscuro);
     position: relative;
     z-index: 5; 
@@ -178,11 +178,6 @@ img{
   color: var(--blanco);  
 }
 
-.lg {
-    height: 50px;
-    width: 50px;
-}
-
 .logo h2{
     font-size: 3rem;
 }
@@ -191,6 +186,11 @@ img{
     height: auto; 
     max-height: 100%; 
     max-width: 100%;
+}
+
+.lgye {
+    height: 50px;
+    width: 50px;
 }
 
 .navegacion a{
