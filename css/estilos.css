@@ -162,7 +162,6 @@ img{
 /*navegacion*/
 
 .contenedor-navegacion{
-    padding: 3rem 3rem;
     background-color: var(--oscuro);
     position: relative;
     z-index: 5; 
@@ -189,8 +188,8 @@ img{
 }
 
 .lgye {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .navegacion a{

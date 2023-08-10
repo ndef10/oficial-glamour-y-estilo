@@ -1,4 +1,4 @@
-# Salón de Belleza Glamour y estilo
+# Salón de Belleza Glamour & estilo
 
 Este es el sitio web oficial del salón de belleza "Glamour & Estilo" que permite a sus clientes contactar al local mediante correo electrónico por medio del formulario de contacto, suscribirse, hacer consultas sobre horarios mediante WhatsApp y ver los productos disponibles para la venta.
 
