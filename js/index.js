@@ -8,12 +8,15 @@ const btnCremas = document.querySelector('.cremas');
 const btnOtros = document.querySelector('.otros');
 const contenedorProductos = document.querySelector('.productos');
 const comprarBotones = document.querySelectorAll('.comprar-btn');
+const overlay  = document.createElement('div');
 
 document.addEventListener('DOMContentLoaded',()=>{
     eventos();
     productos();
     vender();
     suscripcion();
+    desplazamientoLento();
+    cerrar();
    
  
 });
@@ -29,7 +32,6 @@ const abrirMenu = () =>{
 
 const botonCerrar = () =>{
     const btnCerrar = document.createElement('p');
-    const overlay  = document.createElement('div');
     overlay.classList.add('pantalla-completa');
     const body = document.querySelector('body');
     if(document.querySelectorAll('.pantalla-completa').length > 0) return;
@@ -297,3 +299,31 @@ function suscripcion() {
       });         
 }
 
+// suavisar desplazamiento
+
+function desplazamientoLento() {
+    const menuLinks = document.querySelectorAll('a[href^="#"]');
+    menuLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault(); 
+            const target = this.getAttribute("href"); 
+            
+            if (target.startsWith("#")) {
+                const targetElement = document.querySelector(target);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                    cerrar();
+                }
+            } 
+        });
+    });
+}
+
+const cerrar = function() {
+    navegacion.classList.add('ocultar');
+    overlay.remove();
+}
