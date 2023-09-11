@@ -327,3 +327,14 @@ const cerrar = function() {
     navegacion.classList.add('ocultar');
     overlay.remove();
 }
+
+// ocultar boton al inicio
+const boton = document.querySelector('.boton-volver');
+
+window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > 100) {
+        boton.style.display = 'block';
+    } else {
+        boton.style.display = 'none';
+    }
+});
